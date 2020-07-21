@@ -142,3 +142,99 @@ a {
 .box:last-child {
   margin-right: 20px;
 }
+
+/* Fourth Section */
+
+.fourth-section {
+  margin-top: 20px;
+}
+.fourth-section p {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.fourth-section_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+.location p {
+  font-size: 15px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* max-width: 300px; */
+  width: 400px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description p:first-child {
+  color: #4caf50;
+  font-size: 15px;
+}
+.description p:last-child {
+  margin-top: -5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.progress-bar {
+  background-color: darkgray;
+  border-radius: 20px;
+  margin: 10px 10px;
+}
+.progress-bar_inner {
+  width: 40%;
+  background-color: #4caf50;
+  border-radius: 20px;
+}
+.funding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.funding p {
+  font-size: 15px;
+}
+.funding a {
+  color: #fff;
+  background-color: #4caf50;
+  padding: 7px 20px;
+  font-weight: bold;
+}
